@@ -5,7 +5,7 @@ cc.Class({
         rootNode:cc.Node,
     },
     ctor:function(){
-        
+      //  window.self = null;
     },
 
     onLoad:function(){
@@ -16,9 +16,7 @@ cc.Class({
 
 
         require("PublicGame").setGameFrame(30);
-        require("PublicTimer").timer(1,10, function(){
-            console.log("call")
-        })
+    
 
     },
 

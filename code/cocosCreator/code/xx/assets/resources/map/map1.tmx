@@ -1,8 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="isometric" renderorder="left-down" width="10" height="10" tilewidth="400" tileheight="220" infinite="0" nextobjectid="1">
- <layer name="块层 1" width="10" height="10">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="left-down" width="10" height="10" tilewidth="96" tileheight="96" infinite="0" nextobjectid="46">
+ <tileset firstgid="1" name="map1" tilewidth="96" tileheight="96" tilecount="13" columns="13">
+  <image source="../../res/img/map/map1.png" width="1260" height="100"/>
+ </tileset>
+ <layer name="wall" width="10" height="10" locked="1">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgwkAAAGQAAE=
+   eJxjZGBgYCQSEwKj6vCrIwYDAB34ACU=
   </data>
  </layer>
+ <layer name="road" width="10" height="10" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAecAAxLw7MjaSOhUjz2PCYx06kGaxkqMPnD04yzMbnD248+rABADoLAY4=
+  </data>
+ </layer>
+ <objectgroup name="start" locked="1">
+  <object id="13" x="818" y="145">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup name="end" locked="1">
+  <object id="14" x="817" y="815">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup name="place">
+  <object id="16" x="805" y="237">
+   <point/>
+  </object>
+  <object id="17" x="708" y="233">
+   <point/>
+  </object>
+  <object id="18" x="619" y="240">
+   <point/>
+  </object>
+  <object id="19" x="523" y="239">
+   <point/>
+  </object>
+  <object id="20" x="423" y="232">
+   <point/>
+  </object>
+  <object id="21" x="340" y="240">
+   <point/>
+  </object>
+  <object id="22" x="234" y="243">
+   <point/>
+  </object>
+  <object id="23" x="240" y="429">
+   <point/>
+  </object>
+  <object id="24" x="336" y="436">
+   <point/>
+  </object>
+  <object id="25" x="430" y="434">
+   <point/>
+  </object>
+  <object id="26" x="534" y="438">
+   <point/>
+  </object>
+  <object id="27" x="645" y="446">
+   <point/>
+  </object>
+  <object id="28" x="742" y="445">
+   <point/>
+  </object>
+  <object id="29" x="727" y="516">
+   <point/>
+  </object>
+  <object id="30" x="626" y="529">
+   <point/>
+  </object>
+  <object id="31" x="510" y="530">
+   <point/>
+  </object>
+  <object id="32" x="436" y="534">
+   <point/>
+  </object>
+  <object id="33" x="326" y="520">
+   <point/>
+  </object>
+  <object id="34" x="229" y="530">
+   <point/>
+  </object>
+  <object id="35" x="142" y="524">
+   <point/>
+  </object>
+  <object id="36" x="140" y="420">
+   <point/>
+  </object>
+  <object id="37" x="241" y="713">
+   <point/>
+  </object>
+  <object id="38" x="344" y="710">
+   <point/>
+  </object>
+  <object id="39" x="437" y="711">
+   <point/>
+  </object>
+  <object id="40" x="525" y="711">
+   <point/>
+  </object>
+  <object id="42" x="742" y="711">
+   <point/>
+  </object>
+  <object id="43" x="817" y="719">
+   <point/>
+  </object>
+  <object id="45" x="624" y="715">
+   <point/>
+  </object>
+ </objectgroup>
 </map>
